@@ -66,7 +66,7 @@ public class ParticipantRestController {
 		participantService.update(updatedParticipant);
 		return new ResponseEntity<Participant>(HttpStatus.OK);
 	}
-//	POST localhost:8080/meetings/2/participants;
+//	POST localhost:8080/meegtings/2/participants;
 //  DELETE localhost:8080/meetings/2/participants/user2;
 //	@RequestBody
 //	{"login": "user2"}
